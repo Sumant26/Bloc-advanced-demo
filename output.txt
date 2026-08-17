@@ -1,0 +1,23 @@
+Analyzing bloc_advanced_demo...                                 
+
+  error - The implicitly invoked unnamed constructor from 'Failure' has required parameters - lib\core\error\failures.dart:20:9 - implicit_super_initializer_missing_arguments
+  error - No associated named super constructor parameter - lib\core\error\failures.dart:20:30 - super_formal_parameter_without_associated_named
+  error - Named parameters must be enclosed in curly braces ('{' and '}') - lib\core\error\failures.dart:20:38 - named_parameter_outside_group
+  error - Target of URI doesn't exist: '../entities/post.dart' - lib\features\posts\data\models\post_model.dart:2:8 - uri_does_not_exist
+  error - Target of URI hasn't been generated: 'package:bloc_advanced_demo/features/posts/data/models/post_model.g.dart' - lib\features\posts\data\models\post_model.dart:4:6 - uri_has_not_been_generated
+  error - Classes can only extend other classes - lib\features\posts\data\models\post_model.dart:7:25 - extends_non_class
+  error - No associated named super constructor parameter - lib\features\posts\data\models\post_model.dart:9:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\features\posts\data\models\post_model.dart:10:20 - super_formal_parameter_without_associated_named
+  error - No associated named super constructor parameter - lib\features\posts\data\models\post_model.dart:11:20 - super_formal_parameter_without_associated_named
+  error - The method '_$PostModelFromJson' isn't defined for the type 'PostModel' - lib\features\posts\data\models\post_model.dart:14:60 - undefined_method
+  error - The method '_$PostModelToJson' isn't defined for the type 'PostModel' - lib\features\posts\data\models\post_model.dart:16:36 - undefined_method
+  error - Target of URI doesn't exist: '../../../core/error/failures.dart' - lib\features\posts\data\repositories\post_repository_impl.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../../core/network/api_client.dart' - lib\features\posts\data\repositories\post_repository_impl.dart:3:8 - uri_does_not_exist
+  error - Undefined class 'ApiClient' - lib\features\posts\data\repositories\post_repository_impl.dart:9:9 - undefined_class
+  error - A value of type 'List<PostModel>' can't be returned from the method 'getPosts' because it has a return type of 'Future<List<Post>>' - lib\features\posts\data\repositories\post_repository_impl.dart:19:16 - return_of_invalid_type
+  error - The name 'ServerFailure' isn't a class - lib\features\posts\data\repositories\post_repository_impl.dart:21:21 - creation_with_non_type
+  error - The name 'NetworkFailure' isn't a class - lib\features\posts\data\repositories\post_repository_impl.dart:25:21 - creation_with_non_type
+  error - The method 'ServerFailure' isn't defined for the type 'PostRepositoryImpl' - lib\features\posts\data\repositories\post_repository_impl.dart:27:13 - undefined_method
+  error - The method 'ServerFailure' isn't defined for the type 'PostRepositoryImpl' - lib\features\posts\data\repositories\post_repository_impl.dart:29:13 - undefined_method
+
+19 issues found. (ran in 3.0s)

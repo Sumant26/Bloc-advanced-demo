@@ -1,0 +1,18 @@
+part of 'posts_bloc.dart';
+
+abstract class PostsEvent extends Equatable {
+  const PostsEvent();
+
+  @override
+  List<Object> get props => [];
+}
+
+class GetPostsEvent extends PostsEvent {}
+
+class SearchPostsEvent extends PostsEvent {
+  final String query;
+  const SearchPostsEvent(this.query);
+
+  @override
+  List<Object> get props => [query];
+}

@@ -1,0 +1,7 @@
+Analyzing bloc_advanced_demo...                                 
+
+  error - Target of URI hasn't been generated: 'package:bloc_advanced_demo/features/posts/data/models/post_model.g.dart' - lib\features\posts\data\models\post_model.dart:4:6 - uri_has_not_been_generated
+  error - The method '_$PostModelFromJson' isn't defined for the type 'PostModel' - lib\features\posts\data\models\post_model.dart:14:60 - undefined_method
+  error - The method '_$PostModelToJson' isn't defined for the type 'PostModel' - lib\features\posts\data\models\post_model.dart:16:36 - undefined_method
+
+3 issues found. (ran in 2.6s)
